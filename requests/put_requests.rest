@@ -1,0 +1,17 @@
+//Post Person With Known ID  and Known Phone Number 
+PUT  http://localhost:3001/api/tutorials/5f535e34bde1580d9440c8ef HTTP/1.1
+content-type: application/json
+
+{
+    "title": "Second Tutorials",
+    "published": true
+}
+
+### //Post Person With Unkown ID  and Unkown Phone Number 
+Put http://localhost:3001/api/persons/ HTTP/1.1
+content-type: application/json
+
+{
+    "name": "No ID No Phone"
+}
+

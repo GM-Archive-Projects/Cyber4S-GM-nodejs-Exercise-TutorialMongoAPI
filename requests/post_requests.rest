@@ -1,0 +1,19 @@
+//Post Person With Known ID  and Known Phone Number 
+POST http://localhost:3001/api/tutorials/ HTTP/1.1
+content-type: application/json
+
+{
+    "title": "Third Tutorials",
+    "published": true
+}
+
+
+//Post Person With Known ID  and Known Phone Number 
+###
+POST http://localhost:3001/api/tutorials/ HTTP/1.1
+content-type: application/json
+
+{
+    "title": "Third Tutorials",
+    "published": false
+}
